@@ -1,22 +1,22 @@
 package main
 
-import (
-	"fmt"
-	"github.com/Seven11Eleven/ads2024_kbtu_go/lecture1"
-)
+import "fmt"
 
 func main() {
-	stakke := lecture1.NewStack()
-	stakkelan := new(lecture1.Stack)
-	stakke.Push("1")
-	stakke.Push("1337")
-	fmt.Println(stakke.Peek())
-	stakke.Pop()
-	fmt.Println(stakke.Peek())
-	fmt.Println("pornography is death")
-	stakkelan.Push(1)
-	stakkelan.Push(1337)
-	fmt.Println(stakkelan.Peek())
-	stakkelan.Pop()
-	fmt.Println(stakkelan.Peek())
+	//root := &lecture4.Node{}
+	//
+	//root.InsertNode(root, 50)
+	//root.InsertNode(root, 30)
+	//root.InsertNode(root, 20)
+	//root.InsertNode(root, 40)
+	//root.InsertNode(root, 70)
+	//root.InsertNode(root, 60)
+	//root.InsertNode(root, 80)
+	//
+	//fmt.Printf("Inorder traversal of the given Bin Search:\n Tree is: \n")
+	//root.InorderTraversal(root)
+	//list := []int{2, 9, 2, 3, 1, 1, 4, 4, 1, 8}
+	i := 11
+	mod := 11
+	fmt.Println(i % mod)
 }
